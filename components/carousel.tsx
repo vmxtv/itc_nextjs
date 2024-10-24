@@ -2,8 +2,7 @@ import CarouselItem from "components/carousel-item";
 import { CarouseItemProps } from "components/carousel-item";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import LeftArrow from "public/icons/Arrow-Left-Black.svg";
-import RightArrow from "public/icons/Arrow-Right-Black.svg";
+import Image from "next/image";
 
 interface CarouselProps {
   title: string;
@@ -26,7 +25,12 @@ export default function ItcCarousel({ title, items }: CarouselProps) {
                 } top-0 bottom-0 left-0 flex justify-center items-center p-3 opacity-30 hover:opacity-100 cursor-pointer z-20`}
                 onClick={clickHandler}
               >
-                <img src="/icons/Arrow-Left-Black.svg" alt="Left" />
+                <Image
+                  src="/icons/Arrow-Left-Black.svg"
+                  alt="Left"
+                  width={52}
+                  height={52}
+                />
               </div>
             );
           }}
@@ -38,7 +42,12 @@ export default function ItcCarousel({ title, items }: CarouselProps) {
                 } top-0 bottom-0 right-0 flex justify-center items-center p-3 opacity-30 hover:opacity-100 cursor-pointer z-20`}
                 onClick={clickHandler}
               >
-                <img src="/icons/Arrow-Right-Black.svg" alt="Right" />
+                <Image
+                  src="/icons/Arrow-Right-Black.svg"
+                  alt="Right"
+                  width={52}
+                  height={52}
+                />
               </div>
             );
           }}
