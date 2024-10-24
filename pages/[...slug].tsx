@@ -72,6 +72,8 @@ export async function getStaticProps(
     }
   );
 
+  //const carousel = await getCarousel("81a37512-3de2-4cfb-9823-33041e3c32aa");
+  //console.log(carousel);
   // At this point, we know the path exists and it points to a resource.
   // If we receive an error, it means something went wrong on Drupal.
   // We throw an error to tell revalidation to skip this for now.

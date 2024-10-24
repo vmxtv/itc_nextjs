@@ -3,12 +3,15 @@ import { CarouseItemProps } from "components/carousel-item";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 interface CarouselProps {
   title: string;
   items: CarouseItemProps[];
 }
 export default function ItcCarousel({ title, items }: CarouselProps) {
+  const [carouselItems, setCarouselItems] = useState<CarouseItemProps[]>([]);
+
   return (
     <div>
       <h1 className="text-center font-bold text-2xl py-5">{title}</h1>

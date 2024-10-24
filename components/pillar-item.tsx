@@ -1,4 +1,3 @@
-import ItcSvg from "components/itc-svg";
 import { absoluteUrl } from "lib/utils";
 import InlineSVG from "react-inlinesvg";
 import SVG from "react-inlinesvg";

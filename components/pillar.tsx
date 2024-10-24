@@ -1,6 +1,4 @@
-import ItcSvg from "components/itc-svg";
 import PillarItem from "components/pillar-item";
-import { absoluteUrl } from "lib/utils";
 import Link from "next/link";
 
 interface PillarItemProps {
