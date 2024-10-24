@@ -12,10 +12,13 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.8",
+    "classnames": "^2.5.1",
     "next": "^13",
     "next-drupal": "^1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-inlinesvg": "^4.1.4",
+    "react-responsive-carousel": "^3.2.23",
     "sharp": "^0.31.2"
   },
   "devDependencies": {
