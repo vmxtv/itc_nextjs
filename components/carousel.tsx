@@ -17,6 +17,7 @@ export default function ItcCarousel({ title, items }: CarouselProps) {
         <Carousel
           infiniteLoop={true}
           showStatus={false}
+          showThumbs={false}
           renderArrowPrev={(clickHandler, hasPrev) => {
             return (
               <div
