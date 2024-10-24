@@ -24,7 +24,6 @@ export default function Highlight({
   field_image,
   field_image_position,
 }: HighlightProps) {
-  console.log(field_image_position);
   const highlightClasses = classNames({
     "flex items-center bg-[#f3f3f3] p-10": true,
     "flex-row": field_image_position == 0,
