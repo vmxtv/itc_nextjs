@@ -17,3 +17,7 @@ ul {
   color: #333;
   margin-bottom: 50px;
 }
+
+.carousel .slider-wrapper {
+  width: 90% !important;
+}

@@ -56,7 +56,7 @@ export default function ItcCarousel({ title, items }: CarouselProps) {
           }}
         >
           {items.map((item, index) => (
-            <div key={index} className="px-16">
+            <div key={index}>
               <CarouselItem
                 title={item.title}
                 job={item.job}
